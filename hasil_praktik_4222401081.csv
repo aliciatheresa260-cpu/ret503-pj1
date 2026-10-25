@@ -1,0 +1,4 @@
+eksperimen,perubahan,pretrained,mAP50,mAP50-95,precision,recall,inferensi_ms,waktu_latih_menit,imgsz,bobot
+E1_pretrained,-,True,0.537,0.341,0.672,0.516,6.3,1.8,416,yolo26n.pt
+E2_scratch,-,False,0.003,0.001,0.001,0.127,3.9,1.3,416,yolo26n.yaml
+E3_tuning,imgsz=640,True,0.657,0.473,0.869,0.567,9.3,1.7,640,yolo26n.pt
